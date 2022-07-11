@@ -16,6 +16,8 @@ import { API_KEY, MODEL_CLOSE_SEC } from './config.js';
 //   module.hot.accept();
 // };
 
+console.log('welcome to the up');
+
 const controlRecipe = async function () {
   try {
 

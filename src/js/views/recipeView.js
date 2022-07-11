@@ -1,7 +1,7 @@
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 import icons from 'url:../../img/icons.svg';
-import fractional from 'fractional';
+import { Fraction } from 'fractional';
 import View from "./view";
 import { toJSON } from '../helpers';
 

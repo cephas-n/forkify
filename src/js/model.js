@@ -89,7 +89,7 @@ export const updateServings = function (newServings) {
 
 export const addBookmark = function (recipe) {
     if (state.bookmarks.find(rec => rec.id === recipe.id)) return;
-    state.bookmarks.push(recipe);
+    state.bookmarks.unshift(recipe);
     saveToLocalStorage();
     state.recipe.bookmarked = true;
 };

@@ -4,8 +4,8 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    "start": "parcel ./index.html",
+    "build": "parcel build index.html --no-scope-hoist --public-url ./ --dist-dir ./dist"
   },
   "author": "Cephas Naweji",
   "license": "ISC",
